@@ -45,3 +45,5 @@ group :development do
   gem 'spring'
 end
 
+# A library for generating fake data such as names, addresses, and phone numbers.
+gem 'faker'
