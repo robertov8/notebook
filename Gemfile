@@ -35,6 +35,9 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
+  
+  #This is a small gem which causes rails console to open pry. It therefore depends on pry.
+  gem 'pry-rails'
 end
 
 group :development do
